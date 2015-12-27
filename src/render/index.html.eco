@@ -1,0 +1,34 @@
+---
+layout: default
+title: "main page"
+---
+
+<div id='home' class='section dark'>
+    <div class='content-box'>
+        <%- @partial('homepage/home') %>
+    </div>
+</div>
+
+<div id='about' class='section light'>
+    <div class='content-box'>
+        <%- @partial('homepage/about') %>
+    </div>
+</div>
+
+<div id='systems' class='section dark'>
+    <div class='content-box'>
+        <%- @partial('homepage/systems') %>
+    </div>
+</div>
+
+<div id='work' class='section light'>
+    <div class='content-box'>
+        <%- @partial('homepage/work') %>
+    </div>
+</div>
+
+<div id='contact' class='section dark'>
+    <div class='content-box'>
+        <%- @partial('homepage/contact') %>
+    </div>
+</div>
