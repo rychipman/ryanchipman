@@ -4,6 +4,7 @@
   "description": "Ryan Chipman's personal website",
   "dependencies": {
     "docpad": "~6.78.4",
+    "docpad-plugin-cleanurls": "~2.8.1",
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ignoreincludes": "~2.1.0",
     "docpad-plugin-marked": "~2.3.0",

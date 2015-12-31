@@ -9,6 +9,8 @@ docpadConfig = {
                 jeet: true
                 rupture: true
                 typographic: true
+        cleanurls:
+            static: true
 }
 
 # Export the DocPad Configuration
