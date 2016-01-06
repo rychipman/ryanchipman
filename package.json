@@ -16,6 +16,11 @@
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
-    "start": "node_modules/.bin/docpad-server"
+    "start": "node_modules/.bin/docpad-server",
+    "watch": "node_modules/.bin/docpad run",
+    "build": "node_modules/.bin/docpad generate",
+    "clean": "rm -rf out",
+    "deploy": "rsync -avz --delete ./out/ delta:ryanchipman/site",
+    "stage": "rsync -avz --delete ./out/ delta:ryanchipman-staging/site"
   }
 }
