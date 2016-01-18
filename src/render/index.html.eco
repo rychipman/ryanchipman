@@ -5,34 +5,24 @@ title: "main page"
 
 <%- @partial('header') %>
 
-<div id='home' class='section dark'>
-    <div class='content-box'>
-        <%- @partial('homepage/home') %>
-    </div>
+<div id='home' class='homepage-section dark'>
+    <%- @partial('homepage/home') %>
 </div>
 
-<div id='about' class='section light'>
-    <div class='content-box'>
-        <%- @partial('homepage/about') %>
-    </div>
+<div id='about' class='homepage-section light'>
+    <%- @partial('homepage/about') %>
 </div>
 
-<div id='systems' class='section dark'>
-    <div class='content-box'>
-        <%- @partial('homepage/systems') %>
-    </div>
+<div id='systems' class='homepage-section dark'>
+    <%- @partial('homepage/systems') %>
 </div>
 
-<div id='work' class='section light'>
-    <div class='content-box'>
-        <%- @partial('homepage/work') %>
-    </div>
+<div id='work' class='homepage-section light'>
+    <%- @partial('homepage/work') %>
 </div>
 
-<div id='contact' class='section dark'>
-    <div class='content-box'>
-        <%- @partial('homepage/contact') %>
-    </div>
+<div id='contact' class='homepage-section dark'>
+    <%- @partial('homepage/contact') %>
 </div>
 
 <%- @partial('footer') %>
