@@ -3,6 +3,8 @@ layout: default
 title: "main page"
 ---
 
+<%- @partial('header') %>
+
 <div id='home' class='section dark'>
     <div class='content-box'>
         <%- @partial('homepage/home') %>
