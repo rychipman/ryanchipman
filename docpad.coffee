@@ -8,7 +8,6 @@ docpadConfig = {
 		    stylusLibraries:
                 jeet: true
                 rupture: true
-                typographic: true
         cleanurls:
             static: true
 }

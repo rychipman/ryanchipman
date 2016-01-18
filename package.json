@@ -11,8 +11,7 @@
     "docpad-plugin-partials": "~2.9.2",
     "docpad-plugin-stylus": "~2.11.0",
     "jeet": "^6.1.2",
-    "rupture": "^0.6.1",
-    "typographic": "^2.9.3"
+    "rupture": "^0.6.1"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
