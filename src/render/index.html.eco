@@ -34,3 +34,5 @@ title: "main page"
         <%- @partial('homepage/contact') %>
     </div>
 </div>
+
+<%- @partial('footer') %>
